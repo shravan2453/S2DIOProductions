@@ -57,6 +57,18 @@ html {
 
 }
 
+
+
+.home .home-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16.5%;
+    height: 16.5%;
+    margin-bottom: -20px;
+    margin-top: -30px;
+}
+
 .home .subtitle{
     color: #9e303e;
     font-family: Copperplate, Fantasy;
@@ -65,19 +77,125 @@ html {
     margin: 0 0 50px 20px;
 }
 
-.home .home-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 14.5%;
-    height: 14.5%;
-    margin-bottom: -20px;
-}
-
 .title-content{
     margin-top: 50px;
 }
 
+
+@media (max-width: 1179px) and (min-width: 1127px){
+    .home .title {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1127px) and (min-width: 1066px){
+    .home .title {
+        font-size: 85px;
+    }
+}
+
+@media (max-width: 1066px) and (min-width: 1000px){
+    .home .title {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 1005px) and (min-width: 752px){
+    .home .title {
+        font-size: 75px;
+    }
+}
+
+
+@media (max-width: 752px) and (min-width: 500px){
+    .home .title {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 432px){
+    .home .title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 432px) and (min-width: 385px){
+    .home .title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 385px) and (min-width: 349px){
+    .home .title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 349px){
+    .home .title {
+        margin-top: 45px;
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 1003px) and (min-width: 875px){
+    .home .home-image{
+        width: 18.5%;
+        height: 18.5%;
+    }
+}
+
+@media (max-width: 875px) and (min-width: 752px){
+    .home .home-image{
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media (max-width: 752px) and (min-width: 626px){
+    .home .home-image{
+        width: 22%;
+        height: 22%;
+    }
+}
+
+@media (max-width: 626px) and (min-width: 562px){
+    .home .home-image{
+        width: 25%;
+        height: 25%;
+    }
+}
+
+@media (max-width: 562px) and (min-width: 500px){
+    .home .home-image{
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 200px){
+    .home .home-image{
+        width: 38%;
+        height: 38%;
+        margin-bottom: 0.5%;
+    }
+}
+
+
+@media (max-width: 862px) and (min-width: 663px){
+    .home .subtitle{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 663px) and (min-width: 200px){
+    .home .subtitle{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1%;
+    }
+}
 
 
 
@@ -95,9 +213,65 @@ html {
     border-radius: 5px; 
     cursor: pointer; 
     transition: 0.3s ease 0.1s;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
+
+@media (min-width: 940px){
+    .main-btn{
+        font-size: 60px;
+    } 
+}
+ 
+@media (max-width: 939px) and (min-width: 776px){
+    .main-btn{
+        margin-top: -25px;
+        font-size: 40px;
+    } 
+}
+
+@media (max-width: 776px) and (min-width: 752px){
+    .main-btn{
+        margin-top: -20px;
+        font-size: 50px;
+    } 
+}
+
+@media (max-width: 752px) and (min-width: 500px){
+    .main-btn{
+        margin-top: -10px;
+        font-size: 60px;
+    } 
+}
+
+@media (max-width: 500px) and (min-width: 432px){
+    .main-btn{
+        margin-top: -30px;
+        font-size: 40px;
+    } 
+}
+
+
+@media (max-width: 432px) and (min-width: 349px){
+    .main-btn{
+        margin-top: -10px;
+        font-size: 50px;
+    } 
+}
+
+@media (max-width: 349px) and (min-width: 339px){
+    .main-btn{
+        margin-top: 30px;
+        font-size: 60px;
+    } 
+}
+
+@media (max-width: 339px){
+    .main-btn{
+        margin-top: 30px;
+        font-size: 50px;
+    } 
+}
 
 
 
