@@ -1,4 +1,7 @@
 # S2DIO Productions
+
+**Contributor:** Shravan Selvavel
+
 This is a fully functional website for S2DIO Productions, my photography business, operational since August 2023. This website was created using HTML, CSS, and Javascript.
 
 Website Visuals:
